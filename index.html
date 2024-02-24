@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Message!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="popup-container" id="popup">
+        <div class="popup" >
+            <h2>T&C:</h2>
+            <h1>1. No cussing</h1>
+            <h1>2. No Judging</h1>
+            <button type="button" onclick="openWeb()">Accept</button>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="header">
+            <p>Hello^^ Welcome everyone!</p>
+        </div>
+        <div class="hero-section">
+            
+            <h1>Send some meaningful message that can benefit me or others in any way^^ <br>
+                Or just rant about your life*.*
+            </h1>
+            <h2>Be anonymous writer for a moment?.?</h2>
+        </div>
+        <form name="submit-to-google-sheet">
+            <textarea name="message" id="message" cols="30" rows="22" placeholder="Write here:0" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <span id="msg"></span>
+    </div>
+    <footer>
+        <p>If I get 20 responses and 20 subs then I will do a Reaction video [o.o] <br>
+            
+            <a href=""><i class="fa-brands fa-youtube"></i>Click here</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
